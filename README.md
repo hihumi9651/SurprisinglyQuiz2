@@ -1,1 +1,2 @@
-# SurprisinglyQuiz2
+# SurprisinglyQuiz
+Swift学習で作成したクイズアプリ

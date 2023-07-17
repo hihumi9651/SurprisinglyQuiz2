@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7230C9BF2A62026C004D1E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230C9BE2A62026C004D1E1A /* AppDelegate.swift */; };
+		7230C9C12A62026C004D1E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230C9C02A62026C004D1E1A /* SceneDelegate.swift */; };
+		7230C9C32A62026C004D1E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230C9C22A62026C004D1E1A /* ViewController.swift */; };
+		7230C9C62A62026C004D1E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7230C9C42A62026C004D1E1A /* Main.storyboard */; };
+		7230C9C82A62026E004D1E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7230C9C72A62026E004D1E1A /* Assets.xcassets */; };
+		7230C9CB2A62026E004D1E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7230C9C92A62026E004D1E1A /* LaunchScreen.storyboard */; };
+		7230C9D32A620589004D1E1A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230C9D22A620589004D1E1A /* QuizViewController.swift */; };
+		7230C9D52A62064B004D1E1A /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230C9D42A62064B004D1E1A /* ScoreViewController.swift */; };
+		7230C9D72A620A58004D1E1A /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7230C9D62A620A58004D1E1A /* quiz1.csv */; };
+		7230C9DB2A625A4F004D1E1A /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 7230C9D92A625A4F004D1E1A /* correct.png */; };
+		7230C9DC2A625A4F004D1E1A /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 7230C9DA2A625A4F004D1E1A /* incorrect.png */; };
+		7230C9DE2A6278BD004D1E1A /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230C9DD2A6278BD004D1E1A /* SelectLevelViewController.swift */; };
+		72B245A42A6363F300E72D5E /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 72B245A32A6363F300E72D5E /* quiz2.csv */; };
+		72B245A62A63643D00E72D5E /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 72B245A52A63643D00E72D5E /* quiz3.csv */; };
+		72B245A92A63826200E72D5E /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B245A82A63826200E72D5E /* launchImageView.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7230C9BB2A62026C004D1E1A /* bookQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7230C9BE2A62026C004D1E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7230C9C02A62026C004D1E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7230C9C22A62026C004D1E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7230C9C52A62026C004D1E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7230C9C72A62026E004D1E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7230C9CA2A62026E004D1E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7230C9CC2A62026E004D1E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7230C9D22A620589004D1E1A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		7230C9D42A62064B004D1E1A /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		7230C9D62A620A58004D1E1A /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		7230C9D92A625A4F004D1E1A /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		7230C9DA2A625A4F004D1E1A /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		7230C9DD2A6278BD004D1E1A /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		72B245A32A6363F300E72D5E /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		72B245A52A63643D00E72D5E /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		72B245A82A63826200E72D5E /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7230C9B82A62026C004D1E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7230C9B22A62026C004D1E1A = {
+			isa = PBXGroup;
+			children = (
+				7230C9BD2A62026C004D1E1A /* bookQuiz */,
+				7230C9BC2A62026C004D1E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7230C9BC2A62026C004D1E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7230C9BB2A62026C004D1E1A /* bookQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7230C9BD2A62026C004D1E1A /* bookQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				7230C9BE2A62026C004D1E1A /* AppDelegate.swift */,
+				7230C9C02A62026C004D1E1A /* SceneDelegate.swift */,
+				7230C9C22A62026C004D1E1A /* ViewController.swift */,
+				7230C9C42A62026C004D1E1A /* Main.storyboard */,
+				7230C9DD2A6278BD004D1E1A /* SelectLevelViewController.swift */,
+				7230C9D42A62064B004D1E1A /* ScoreViewController.swift */,
+				7230C9D22A620589004D1E1A /* QuizViewController.swift */,
+				7230C9D62A620A58004D1E1A /* quiz1.csv */,
+				72B245A32A6363F300E72D5E /* quiz2.csv */,
+				72B245A52A63643D00E72D5E /* quiz3.csv */,
+				7230C9C72A62026E004D1E1A /* Assets.xcassets */,
+				7230C9C92A62026E004D1E1A /* LaunchScreen.storyboard */,
+				7230C9CC2A62026E004D1E1A /* Info.plist */,
+				7230C9D82A625A4F004D1E1A /* image */,
+			);
+			path = bookQuiz;
+			sourceTree = "<group>";
+		};
+		7230C9D82A625A4F004D1E1A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				72B245A72A63826200E72D5E /* launchImage */,
+				7230C9D92A625A4F004D1E1A /* correct.png */,
+				7230C9DA2A625A4F004D1E1A /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = SOURCE_ROOT;
+		};
+		72B245A72A63826200E72D5E /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				72B245A82A63826200E72D5E /* launchImageView.png */,
+			);
+			path = launchImage;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7230C9BA2A62026C004D1E1A /* bookQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7230C9CF2A62026E004D1E1A /* Build configuration list for PBXNativeTarget "bookQuiz" */;
+			buildPhases = (
+				7230C9B72A62026C004D1E1A /* Sources */,
+				7230C9B82A62026C004D1E1A /* Frameworks */,
+				7230C9B92A62026C004D1E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bookQuiz;
+			productName = bookQuiz;
+			productReference = 7230C9BB2A62026C004D1E1A /* bookQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7230C9B32A62026C004D1E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7230C9BA2A62026C004D1E1A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7230C9B62A62026C004D1E1A /* Build configuration list for PBXProject "SurprisinglyQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7230C9B22A62026C004D1E1A;
+			productRefGroup = 7230C9BC2A62026C004D1E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7230C9BA2A62026C004D1E1A /* bookQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7230C9B92A62026C004D1E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B245A92A63826200E72D5E /* launchImageView.png in Resources */,
+				7230C9DB2A625A4F004D1E1A /* correct.png in Resources */,
+				72B245A62A63643D00E72D5E /* quiz3.csv in Resources */,
+				7230C9DC2A625A4F004D1E1A /* incorrect.png in Resources */,
+				7230C9CB2A62026E004D1E1A /* LaunchScreen.storyboard in Resources */,
+				7230C9C82A62026E004D1E1A /* Assets.xcassets in Resources */,
+				72B245A42A6363F300E72D5E /* quiz2.csv in Resources */,
+				7230C9C62A62026C004D1E1A /* Main.storyboard in Resources */,
+				7230C9D72A620A58004D1E1A /* quiz1.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7230C9B72A62026C004D1E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7230C9C32A62026C004D1E1A /* ViewController.swift in Sources */,
+				7230C9BF2A62026C004D1E1A /* AppDelegate.swift in Sources */,
+				7230C9D52A62064B004D1E1A /* ScoreViewController.swift in Sources */,
+				7230C9C12A62026C004D1E1A /* SceneDelegate.swift in Sources */,
+				7230C9D32A620589004D1E1A /* QuizViewController.swift in Sources */,
+				7230C9DE2A6278BD004D1E1A /* SelectLevelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7230C9C42A62026C004D1E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7230C9C52A62026C004D1E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7230C9C92A62026E004D1E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7230C9CA2A62026E004D1E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7230C9CD2A62026E004D1E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/osanaishu/Desktop/practice/SurprisinglyQuiz/SurprisinglyQuiz/Info.plist File\nBuild input file cannot be found: '/Users/osanaishu/Desktop/practice/SurprisinglyQuiz/bookQuiz/Info.plist'. Did you forget to declare this file as an output of a script phase or custom build rule which produces it?\nBuild input file cannot be found: '/Users/osanaishu/Desktop/practice/SurprisinglyQuiz/bookQuiz/Info.plist'. Did you forget to declare this file as an output of a script phase or custom build rule which produces it?\nSurprisinglyQuiz/SurprisinglyQuiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7230C9CE2A62026E004D1E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/osanaishu/Desktop/practice/SurprisinglyQuiz/SurprisinglyQuiz/Info.plist File\nBuild input file cannot be found: '/Users/osanaishu/Desktop/practice/SurprisinglyQuiz/bookQuiz/Info.plist'. Did you forget to declare this file as an output of a script phase or custom build rule which produces it?\nBuild input file cannot be found: '/Users/osanaishu/Desktop/practice/SurprisinglyQuiz/bookQuiz/Info.plist'. Did you forget to declare this file as an output of a script phase or custom build rule which produces it?\nSurprisinglyQuiz/SurprisinglyQuiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7230C9D02A62026E004D1E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SUCYP9T3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bookQuiz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osanai.bookQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7230C9D12A62026E004D1E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SUCYP9T3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bookQuiz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osanai.bookQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7230C9B62A62026C004D1E1A /* Build configuration list for PBXProject "SurprisinglyQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7230C9CD2A62026E004D1E1A /* Debug */,
+				7230C9CE2A62026E004D1E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7230C9CF2A62026E004D1E1A /* Build configuration list for PBXNativeTarget "bookQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7230C9D02A62026E004D1E1A /* Debug */,
+				7230C9D12A62026E004D1E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7230C9B32A62026C004D1E1A /* Project object */;
+}
